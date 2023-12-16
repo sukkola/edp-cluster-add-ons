@@ -145,11 +145,10 @@ vault:
   enable: false
   server:
     affinity: ""
-    ha: 
-      enabled: false
-      replicas: 1
-      raft:
-        enabled: false
+    ha:
+      enabled: true
+      raft: 
+        enabled: true
 
 vault-kms:
   createNamespace: false
