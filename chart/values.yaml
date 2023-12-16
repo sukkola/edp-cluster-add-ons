@@ -143,12 +143,12 @@ tekton:
 vault:
   createNamespace: false
   enable: false
- server:
-   ha: 
-     enabled: false
-     replicas: 1
-     raft:
-       enabled: false
+  server:
+    ha: 
+      enabled: false
+      replicas: 1
+      raft:
+        enabled: false
 
 vault-kms:
   createNamespace: false
