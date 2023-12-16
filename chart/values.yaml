@@ -1,3 +1,4 @@
+repoUrl: https://github.com/sukkola/edp-cluster-add-ons.git
 # keep sorted order
 # -- ArgoCD Deployment
 argo-cd:
